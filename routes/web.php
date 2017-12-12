@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('producto','ProductoController');
+Route::resource('subtipo','SubtipoController');
+Route::resource('tipo','TipoController');
+Route::resource('seccion','SeccionController');
